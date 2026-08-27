@@ -1,0 +1,25 @@
+import type { Garment } from "@/types/stylist";
+
+export const INVENTORY: Garment[] = [
+  { id: "top-black", name: "Top negro", category: "top", colors: ["#1e1e1c"], material: "algodón", texture: "liso", formality: 2, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "shirt-white", name: "Camisa blanca", category: "top", colors: ["#f5f2e9"], material: "algodón", texture: "poplín", formality: 3, warmth: 1, rainSafe: true, comfort: 2, confirmed: true },
+  { id: "sweater-stripe", name: "Sweater crema con rayas negras", category: "top", colors: ["#e9dfcc", "#252523"], material: "tejido fino", texture: "tejido", formality: 2, warmth: 2, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "sweater-grey", name: "Sweater gris", category: "top", colors: ["#777873"], material: "tejido", texture: "punto", formality: 2, warmth: 2, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "jean-flare", name: "Jean Zara TRF Cropped Flare", category: "bottom", colors: ["#536776"], material: "denim", texture: "denim", formality: 2, warmth: 1, rainSafe: true, comfort: 2, confirmed: true },
+  { id: "jean-dark", name: "Jean azul oscuro", category: "bottom", colors: ["#293b4a"], material: "denim", texture: "denim", formality: 2, warmth: 1, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "pants-black", name: "Pantalón negro", category: "bottom", colors: ["#242421"], material: "sastrero", texture: "sastrería", formality: 3, warmth: 1, rainSafe: true, comfort: 2, confirmed: true },
+  { id: "coat-black", name: "Sobretodo negro", category: "outerwear", colors: ["#20201e"], material: "paño", texture: "paño", formality: 3, warmth: 3, rainSafe: false, comfort: 2, confirmed: true },
+  { id: "bomber-camel", name: "Bomber Rita Ora camel", category: "outerwear", colors: ["#b78352"], material: "textura sensible", texture: "texturada", formality: 2, warmth: 2, rainSafe: false, waterSensitive: true, comfort: 3, confirmed: true },
+  { id: "corduroy-green", name: "Campera de corderoy verde seco", category: "outerwear", colors: ["#62634a"], material: "corderoy", texture: "acanalado", formality: 2, warmth: 2, rainSafe: false, waterSensitive: true, comfort: 3, confirmed: true },
+  { id: "puffer-black", name: "Campera acolchada negra", category: "outerwear", colors: ["#2d2e2b"], material: "técnico", texture: "acolchado", formality: 1, warmth: 3, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "denim-jacket", name: "Campera de denim", category: "outerwear", colors: ["#668097"], material: "denim", texture: "denim", formality: 1, warmth: 2, rainSafe: false, comfort: 3, confirmed: true },
+  { id: "boots-black", name: "Botas negras bajas", category: "shoes", colors: ["#252523"], material: "cuero", texture: "cuero", formality: 3, warmth: 1, rainSafe: true, comfort: 2, confirmed: true },
+  { id: "forum", name: "Adidas Forum Bold", category: "shoes", colors: ["#edeae0", "#bbb2a4"], material: "cuero", texture: "cuero", formality: 1, warmth: 0, rainSafe: false, comfort: 3, confirmed: true },
+  { id: "sneakers-black", name: "Zapatillas negras", category: "shoes", colors: ["#292927"], material: "mixto", texture: "deportivo", formality: 1, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "bag-black", name: "Cartera negra", category: "bag", colors: ["#20201f"], material: "cuero", texture: "cuero", formality: 3, warmth: 0, rainSafe: true, comfort: 2, confirmed: true },
+  { id: "bag-camel", name: "Cartera camel", category: "bag", colors: ["#b77b48"], material: "cuero", texture: "cuero", formality: 2, warmth: 0, rainSafe: false, comfort: 2, confirmed: true },
+  { id: "belt-black", name: "Cinturón negro", category: "belt", colors: ["#252523"], material: "cuero", texture: "cuero", formality: 3, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "cap", name: "Gorra neutra", category: "accessory", colors: ["#aaa28f"], material: "algodón", texture: "lona", formality: 1, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "earrings-gold", name: "Aros dorados", category: "accessory", colors: ["#b79552"], material: "metal", texture: "brillo sutil", formality: 3, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+  { id: "jewelry-silver", name: "Accesorios plateados", category: "accessory", colors: ["#b9bbb8"], material: "metal", texture: "brillo sutil", formality: 2, warmth: 0, rainSafe: true, comfort: 3, confirmed: true },
+];
